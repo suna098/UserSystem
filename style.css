@@ -1,0 +1,213 @@
+h1{
+position: relative;
+padding: 0.3em 0.5em;
+background: -moz-linear-gradient(to top, rgb(137, 184, 255), #c5ceff);
+color: #495193;
+background: -webkit-linear-gradient(to top, rgb(137, 184, 255), #c5ceff);
+color: #495193;
+background: linear-gradient(to top, rgb(137, 184, 255), #c5ceff);
+color: #495193;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    *border-collapse: collapse; /* IE7 and lower */
+    border-spacing: 0;
+}
+
+.square_btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #FFF;
+    background-image: -webkit-linear-gradient(#6795fd 0%, #67ceff 100%);
+    background-image: linear-gradient(#6795fd 0%, #67ceff 100%);
+    transition: .4s;
+}
+
+.square_btn:hover{
+    background-image: -webkit-linear-gradient(#6795fd 0%, #67ceff 70%);
+    background-image: linear-gradient(#6795fd 0%, #67ceff 70%);
+}
+
+h1 {
+   text-align: center;
+}
+
+table#home {
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
+table#profile {
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
+table#search {
+ margin-left: auto;
+ margin-right: auto;
+}
+
+table#data {
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
+
+.data *, .data *:before, .data *:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.data {
+	width: 50%;
+	border-collapse: collapse;
+}
+.data th, .data  td {
+	padding: 10px;
+	border: 1px solid #dddddd;
+}
+.data th {
+	width: 30%;
+	text-align: left;
+	background: #f4f4f4;
+}
+@media only screen and (max-width:480px) {
+	.data {
+		margin: 0;
+	}
+	.data th, .data td {
+		width: 50%;
+		display: block;
+		border-top: none;
+	}
+	.data tr:first-child th {
+		border-top: 1px solid #dddddd;
+	}
+}
+
+
+/***　おしゃれテーブル2　Chromeカラー ***/
+ 
+.all {
+ width:100%;
+ table-layout: fixed;
+ border: none !important;
+ border-collapse: separate;
+ border-spacing: 7px 0px;
+}
+ 
+.all tfoot td {
+ border-radius: 0 0 10px 10px;
+}
+ 
+.all th {
+ background-color:#C0C0C0
+ border: none !important;
+ border-radius: 10px 10px 0px 0px / 10px 10px 0px 0px;
+}
+ 
+.all tbody td {
+ border: none !important;
+ background-color:#C0C0C0 !important;
+ border-bottom: solid 2px #f9f9f9 !important;
+}
+ 
+/* ヘッダー */
+.all thead th {
+ font-weight: bold;
+}
+ 
+ 
+/* ボディ項目・フッター項目 */
+.all tbody th,
+.all tfoot th {
+ background:#FFF;
+ font-weight: bold;
+ border-bottom: solid 2px #f9f9f9 !important;
+ line-height:4.5em;
+}
+ 
+ 
+ 
+/* ボディデータ・フッターデータ */
+.all tbody td,
+.all tfoot td {
+ text-align:center;
+}
+ 
+/* ヘッダー行　１列ごとの色変え */
+.all thead th:nth-child(1)  {
+ background:#FFF;
+}
+ 
+.all thead th:nth-child(2)  {
+ background: #1DA462;
+}
+.all thead th:nth-child(3)  {
+ background: #DD5144;
+}
+.all thead th:nth-child(4)  {
+ background: #FFCD46;
+}
+.all thead th:nth-child(5)  {
+ background: #4C8BF5;
+}
+ 
+ 
+/* 最終行のボーダーをなくす */
+.all tbody tr:last-child th,
+.all tbody tr:last-child td,
+.all tfoot tr:last-child th{
+ border-bottom:none !important;
+}
+ 
+/***　おしゃれテーブル比較用 ***/
+ 
+ 
+/* スマホ調整 */
+@media (max-width: 767px) {
+ .osare2-table thead th,
+ .osare2-table tbody th {
+ padding:0;
+ }
+ .osare2-table tfoot td {
+ padding:0;
+ font-size:0.9em;
+ }
+.osare2-table tfoot td:nth-child(2) {
+ font-size:1em;
+ }
+ 
+}
+ 
+ 
+/*（共通）　項目の多いテーブルの幅を調整*/
+@media (max-width: 767px) {
+ .col6t th,
+ .col6t td{
+ font-size:0.4em;
+ padding: 10px 0px;
+ }
+ .col5t th,
+ .col5t td{
+ font-size:0.5em;
+ padding: 10px 0px;
+ }
+ .col4t th,
+ .col4t td{
+ font-size:0.7em;
+ padding: 10px 5px;
+ }
+ .col3t th,
+ .col3t td{
+ font-size:0.8em;
+ padding: 10px 10px;
+ }
+}
+
+ 
