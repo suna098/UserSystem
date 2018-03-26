@@ -90,8 +90,6 @@ table#data {
 	}
 }
 
-
-/***　おしゃれテーブル2　Chromeカラー ***/
  
 .all {
  width:100%;
@@ -123,7 +121,7 @@ table#data {
 }
  
  
-/* ボディ項目・フッター項目 */
+
 .all tbody th,
 .all tfoot th {
  background:#FFF;
@@ -134,13 +132,13 @@ table#data {
  
  
  
-/* ボディデータ・フッターデータ */
+
 .all tbody td,
 .all tfoot td {
  text-align:center;
 }
  
-/* ヘッダー行　１列ごとの色変え */
+
 .all thead th:nth-child(1)  {
  background:#FFF;
 }
@@ -166,10 +164,6 @@ table#data {
  border-bottom:none !important;
 }
  
-/***　おしゃれテーブル比較用 ***/
- 
- 
-/* スマホ調整 */
 @media (max-width: 767px) {
  .osare2-table thead th,
  .osare2-table tbody th {
@@ -185,8 +179,6 @@ table#data {
  
 }
  
- 
-/*（共通）　項目の多いテーブルの幅を調整*/
 @media (max-width: 767px) {
  .col6t th,
  .col6t td{
